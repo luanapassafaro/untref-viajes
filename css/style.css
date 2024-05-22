@@ -2009,8 +2009,8 @@ h6 {
 }
 
 .good-offers {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 1rem;
     margin-inline: 1rem;
 }
@@ -2041,7 +2041,6 @@ h6 {
 
 @media (width > 390px) {
     .good-offers {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
 
